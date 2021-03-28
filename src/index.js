@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import setupMockSever from './api/server'
 
+setupMockSever()
 ReactDOM.render(
   <React.StrictMode>
     <App />
